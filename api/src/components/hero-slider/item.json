@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_hero_slider_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "WE ARE LEADING TECHNOLOGY SOLUTIONS PROVIDING COMPANY!",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "We Make The Best IT Solutions",
+      "required": true
+    },
+    "shortDec": {
+      "type": "text",
+      "required": false,
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years. Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor."
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Website": {
+      "type": "blocks"
+    }
+  }
+}

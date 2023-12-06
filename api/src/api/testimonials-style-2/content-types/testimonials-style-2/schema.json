@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials_style_2s",
+  "info": {
+    "singularName": "testimonials-style-2",
+    "pluralName": "testimonials-style-2s",
+    "displayName": "Testimonials Style 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials-style2.item"
+    }
+  }
+}

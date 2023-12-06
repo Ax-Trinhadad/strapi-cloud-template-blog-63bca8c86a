@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_slider_home_1s",
+  "info": {
+    "singularName": "hero-slider-home-1",
+    "pluralName": "hero-slider-home-1s",
+    "displayName": "Hero Slider Home 1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sliderITem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hero-slider.item"
+    }
+  }
+}

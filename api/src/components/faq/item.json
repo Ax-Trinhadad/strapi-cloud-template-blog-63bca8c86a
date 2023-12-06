@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_faq_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "uuid": {
+      "type": "string",
+      "default": "a",
+      "required": true
+    }
+  }
+}

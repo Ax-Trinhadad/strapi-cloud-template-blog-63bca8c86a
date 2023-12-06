@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_team_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "socialIcon1": {
+      "type": "string",
+      "default": "ri-facebook-fill"
+    },
+    "socialLink1": {
+      "type": "string"
+    },
+    "socialIcon2": {
+      "type": "string",
+      "default": "ri-facebook-fill"
+    },
+    "socialLink2": {
+      "type": "string"
+    },
+    "socialIcon3": {
+      "type": "string"
+    },
+    "socialLink3": {
+      "type": "string"
+    }
+  }
+}

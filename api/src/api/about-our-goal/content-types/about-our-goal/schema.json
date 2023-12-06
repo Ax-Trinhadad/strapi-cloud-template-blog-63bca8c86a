@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_our_goals",
+  "info": {
+    "singularName": "about-our-goal",
+    "pluralName": "about-our-goals",
+    "displayName": "About - Our Goal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "OUR GOAL",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Your Trusted Partner For All IT Solutions",
+      "required": true
+    },
+    "shortDec": {
+      "type": "text",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years. Lorem ipsum dolor sit amet consetetur sadipscing elitre sed diam non umy eirmod tempor invidunt ut labore.",
+      "required": true
+    },
+    "ourVisionTitle": {
+      "type": "string",
+      "default": "ourVisionTitle",
+      "required": true
+    },
+    "ourVisionDec": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet consetetur sadip scing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyamei erat sed diam voluptua at vero eos et accusam et justo duo."
+    },
+    "ourMissionTitle": {
+      "type": "string",
+      "default": "Our Mission",
+      "required": true
+    },
+    "ourMissionDec": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet consetetur sadip scing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyamei erat sed diam voluptua at vero eos et accusam et justo duo.",
+      "required": true
+    },
+    "image2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

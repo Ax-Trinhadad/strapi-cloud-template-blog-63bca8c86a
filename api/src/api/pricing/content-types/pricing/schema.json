@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "PRICING",
+      "required": true
+    },
+    "titleAndShortText": {
+      "type": "richtext",
+      "required": true
+    },
+    "priceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-card.item"
+    }
+  }
+}

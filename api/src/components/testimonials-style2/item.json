@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_testimonials_style2_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "rating1": {
+      "type": "string",
+      "default": "ri-star-fill"
+    },
+    "rating2": {
+      "type": "string",
+      "default": "ri-star-fill"
+    },
+    "rating3": {
+      "type": "string",
+      "default": "ri-star-fill"
+    },
+    "rating4": {
+      "type": "string",
+      "default": "ri-star-fill"
+    },
+    "rating5": {
+      "type": "string",
+      "default": "ri-star-line"
+    },
+    "feedbackText": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

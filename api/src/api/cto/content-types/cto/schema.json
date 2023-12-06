@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "ctos",
+  "info": {
+    "singularName": "cto",
+    "pluralName": "ctos",
+    "displayName": "cto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ctoInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cto.item"
+    }
+  }
+}

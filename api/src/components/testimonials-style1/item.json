@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_testimonials_style1_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Herry Hopper",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true,
+      "default": "Solit Team"
+    },
+    "feedbackText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet consetetur sadips cin go elitr sed diam nonumy eirmod.",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

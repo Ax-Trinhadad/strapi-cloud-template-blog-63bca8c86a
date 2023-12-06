@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "skills",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "Skill"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "SKILLSET",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "We Have A Set Of Skill With High Quality",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Explore More",
+      "required": false
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/about"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

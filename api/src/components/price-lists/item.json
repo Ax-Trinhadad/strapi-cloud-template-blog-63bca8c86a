@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_price_lists_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

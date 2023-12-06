@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_who_we_ares",
+  "info": {
+    "singularName": "about-who-we-are",
+    "pluralName": "about-who-we-ares",
+    "displayName": "About - Who We Are"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "WHO WE ARE",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "We Are All In One IT Solution & Technology Company",
+      "required": true
+    },
+    "aboutDec": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
